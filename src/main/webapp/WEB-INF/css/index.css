@@ -1,0 +1,107 @@
+.content-section {
+    margin-left: 10%;
+    width: 80%;
+}
+.list-div {
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+.content-table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+.content-table tr {
+    border-bottom: 1px solid gray;
+}
+.content-table th,
+.content-table td {
+    padding: 15px 0;
+}
+.td-content {
+    opacity: 0.8;
+}
+.td-content:hover {
+    opacity: 1;
+    cursor: pointer;
+    font-weight: 1000;
+}
+.content-table tr:nth-child(odd) {
+    background: whitesmoke;
+}
+.check-clear {
+    color: green;
+}
+.check-yet {
+    color: red;
+}
+.month-section {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.month-section button,
+.month-section h1 {
+    display: inline-block;
+}
+.month-section h1 {
+    width: 60%;
+    text-align: center;
+}
+.month-section button {
+    padding: 2%;
+    font-weight: 1000;
+    border: none;
+    background: black;
+    color: white;
+    box-shadow: 1px 3px 5px grey;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.search {
+    height: 5vh;
+    margin-bottom: 1%;
+    width: 95%;
+    display: inline-block;
+}
+.search button,
+.search select {
+    height: 100%;
+    box-shadow: 0px 1px 3px grey;
+    outline: none;
+    border: none;
+}
+.search input {
+    width: 30%;
+    height: 80%;
+    margin: 0px 5px;
+    box-shadow: 1px 1px 3px black;
+    outline: none;
+    border: none;
+}
+.search button {
+    color: white;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.add-btn {
+    position: absolute;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px grey;
+    border: none;
+    background: orange;
+    color: white;
+    font-weight: 1000;
+    border-radius: 5px;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: pointer;
+    outline: none;
+}
+.add-btn:hover {
+    opacity: 1;
+}

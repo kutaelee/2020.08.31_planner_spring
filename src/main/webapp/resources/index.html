@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <section class="month-section">
+            <button class="month-btn" id="left-month-btn"><</button>
+            <h1 id="month">11월</h1>
+            <button class="month-btn" id="right-month-btn">></button>
+        </section>
+        <section class="content-section">
+            <h1>점검일정</h1>
+            <div class="search">
+                <select>
+                    <option>사이트명</option>
+                    <option>담당자명</option></select
+                ><input type="text" /><button>검색</button>
+            </div>
+            <div class="list-div" id="paln-list">
+                <table class="content-table" id="plan-table">
+                    <tbody>
+                        <tr>
+                            <th>번호</th>
+                            <th>사이트명</th>
+                            <th>점검달</th>
+                            <th>이번달점검여부</th>
+                            <th>담당자</th>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월</td>
+                            <td class="check-clear">Y</td>
+                            <td>이규태</td>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월</td>
+                            <td class="check-yet">N</td>
+                            <td>이규태</td>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월</td>
+                            <td class="check-clear">Y</td>
+                            <td>이규태</td>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월</td>
+                            <td class="check-yet">N</td>
+                            <td>이규태</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="content-section">
+            <h1>점검내역</h1>
+            <div class="search">
+                <select>
+                    <option>사이트명</option>
+                    <option>담당자명</option></select
+                ><input type="text" /><button>검색</button>
+            </div>
+            <button class="add-btn" id="log-add-btn">+</button>
+            <div class="list-div" id="log-list">
+                <table class="content-table" id="log-table">
+                    <tbody>
+                        <tr>
+                            <th>번호</th>
+                            <th>사이트명</th>
+                            <th>점검일자</th>
+                            <th>담당자</th>
+                            <th>기입자</th>
+                            <th>기입시간</th>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월7일</td>
+                            <td>이규태</td>
+                            <td>이규태</td>
+                            <td>2020.1.20</td>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월7일</td>
+                            <td>이규태</td>
+                            <td>이규태</td>
+                            <td>2020.1.20</td>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월7일</td>
+                            <td>이규태</td>
+                            <td>이규태</td>
+                            <td>2020.1.20</td>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>1월7일</td>
+                            <td>이규태</td>
+                            <td>이규태</td>
+                            <td>2020.1.20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h1>사이트목록</h1>
+            <div class="search">
+                <select>
+                    <option>사이트명</option>
+                    <option>담당자명</option></select
+                ><input type="text" /><button>검색</button>
+            </div>
+            <button class="add-btn" id="site-add-btn">+</button>
+            <div class="list-div" id="site-list">
+                <table class="content-table" id="site-table">
+                    <tbody>
+                        <tr>
+                            <th>번호</th>
+                            <th>사이트명</th>
+                            <th>담당자</th>
+                            <th>기입자</th>
+                            <th>계약 만료일</th>
+                        </tr>
+                        <tr class="td-content">
+                            <td>1</td>
+                            <td>메타빌드</td>
+                            <td>이규태</td>
+                            <td>이규태</td>
+                            <td>2020.1.20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </body>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+</html>
